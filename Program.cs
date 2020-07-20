@@ -26,9 +26,10 @@ namespace CheckAvro
                 {
                     using (var reader = AvroContainer.CreateGenericReader(new FileStream(args[0], FileMode.Open)))
                     {
+                        int i = 1;
                         while (reader.MoveNext())
                         {
-                            int i = 1;
+                            int j = 1;
                             foreach (dynamic record in reader.Current.Objects)
                             {
                                 foreach (RecordField rf in (reader.Schema as RecordSchema).Fields)
@@ -39,11 +40,13 @@ namespace CheckAvro
                                     }
                                     catch
                                     {
-                                        Console.WriteLine("Error reading " + rf.Name + " in record # " + i);
+                                        Console.WriteLine("Error reading " + rf.Name + " in record # " + j);
                                     }
                                 }
-                                i++;
+                                //Console.WriteLine(j + "th record in the " + i + "th row has been checked-- OK");
+                                j++;
                             }
+                            i++;
                         }
                     }
                     Console.ReadKey(true);
@@ -52,7 +55,9 @@ namespace CheckAvro
                 {
                     Console.WriteLine("An error occured");
                     Console.WriteLine(ex.Message);
+                    Console.ReadKey(true);
                 }
+                Console.ReadKey(true);
             }
         }
     }

@@ -1,0 +1,12 @@
+D:\DATA\ConsoleApp1\Avro\bin\Release\CheckAvroFile.exe.config
+D:\DATA\ConsoleApp1\Avro\bin\Release\CheckAvroFile.exe
+D:\DATA\ConsoleApp1\Avro\bin\Release\CheckAvroFile.pdb
+D:\DATA\ConsoleApp1\Avro\bin\Release\Microsoft.Avro.Core.dll
+D:\DATA\ConsoleApp1\Avro\bin\Release\Newtonsoft.Json.dll
+D:\DATA\ConsoleApp1\Avro\bin\Release\System.Reflection.dll
+D:\DATA\ConsoleApp1\Avro\bin\Release\Newtonsoft.Json.xml
+D:\DATA\ConsoleApp1\Avro\obj\Release\CheckAVRO.csprojAssemblyReference.cache
+D:\DATA\ConsoleApp1\Avro\obj\Release\CheckAVRO.csproj.CoreCompileInputs.cache
+D:\DATA\ConsoleApp1\Avro\obj\Release\CheckAVRO.csproj.CopyComplete
+D:\DATA\ConsoleApp1\Avro\obj\Release\CheckAvroFile.exe
+D:\DATA\ConsoleApp1\Avro\obj\Release\CheckAvroFile.pdb
